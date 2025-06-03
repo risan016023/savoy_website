@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(13, 247, 247); 
+    
+}
+.container{
+    padding-top:40px;
+      width: 80%;
+      margin: auto;
+}
+
+/* Header section */
+
+.header-part{
+    background-color: coral;
+    padding: 10px;
+    position: fixed;
+    left:0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-part nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding:10px;
+    font-size: 20PX;
+}
+.header-part img{
+    height:50px;
+}
+.container-1 {
+  position: relative;
+  text-align: center;
+  color: white;
+   width: 82%;;
+  height: 500px;
+   display: flex;
+   padding-top:70px;
+}
+
+.centered {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:40PX;
+  background-color:rgba(0, 0, 0, 0.422);
+  display: block;
+}
+.order{
+    text-align: center;
+    background-color: coral;
+}
+.bdesign button{
+    background-color: brown ;
+    width: 300px;
+    margin: auto;
+    font-size:30px;
+    padding: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    
+
+}
+.cont{
+    width:80%;
+    margin: auto;
+    padding:10px;
+}
+.section-3{
+  
+    background-image: url("/img/strawberry-ice-cream-with-cone-texture-background_189483-88.avif"), url("paper.gif");
+
+}
+.new{
+    padding-left: 70px;
+}
+.section-3 img{
+   padding-bottom: 30px;
+   padding-left: 60px;
+  
+  
+}
+ .section-3 button{
+  background-color: transparent ;
+    width: 300px;
+    margin-right: 100px;
+    font-size:30px;
+    padding: 10px;
+    color: rgb(226, 236, 35);
+    font-weight: bold;
+    margin-bottom:10px;
+    border: 3px solid rgb(8, 237, 23);
+}
+nav{
+    margin-left: auto;
+}
+.section-5 {
+   background-color: rgb(151, 189, 189);
+}
+.section-5 input,textarea {
+    margin-left: 270px;
+    padding: 20px;
+    width: 700px;
+    
+    
+}
+.section-5 h2 {
+    margin-left: 400px;
+    font-size: 50px;
+}
+.section-5 input,textarea{
+    margin-top: 5px;
+}
+.section-6{
+    
+   text-align: center;
+   background-color: coral;
+   
+}
+.section-6 h3{
+    margin-bottom: 10px;
+}
+/* .col-sm-4{
+    border: 1px solid rgb(9, 203, 9);
+    margin-bottom: 3px;
+} */
